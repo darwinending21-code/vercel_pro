@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "buils": [
+        {
+            "src":"index.html",
+            "use":"@vercel/static"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/",
+            "dest":"/index"
+        }
+    ]
+}
